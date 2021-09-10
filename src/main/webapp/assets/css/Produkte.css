@@ -1,0 +1,329 @@
+ *{
+	margin: 0;
+	padding : 0;
+	box-sizing: border-box;
+	
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.navigationbar{
+	display: flex;
+	align-items: center;
+	padding: 20px;
+}
+nav{
+	flex: 1;
+	text-align: right;
+}
+nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+nav ul li{
+	display: inline-block;
+	margin-right: 25px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+p{
+	color: black;
+}
+.container{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;	
+}
+
+.row{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.col{
+	text-align:center;
+	flex-basis:50%;
+	min-width: 300px;
+}
+.col img{
+	max-width: 200%;
+	padding: 50px 0;
+}
+.col h1{
+	font-size: 50px;
+	line-height: 60px;
+	margin: 25px 0;
+}
+
+.col a{
+	text-align: center;
+}
+
+.header{
+	background: radial-gradient(#fff7f3,#fff);
+	
+}
+.header .row{
+	margin-top: 55px;
+}
+
+
+
+
+
+
+
+
+
+
+.small-container{
+	max-width: 2000px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	background: radial-gradient(#fff7f3,#fff);
+}
+
+.small-container h4,h3{
+	
+	text-align: center;
+	margin:auto;
+	position: relative;
+	line-height: 60px;
+	color: #555;
+	
+		
+}
+
+.col-4{
+	
+	flex-basis:	25%;
+	padding: 10px;
+	min-width: 200px;
+	margin-bottom: 50px;
+	
+}
+
+.col-4 img{
+	
+	width: 100%;
+}
+
+.Kategorie{
+	
+	background: radial-gradient(#fff7f3,#fff);
+	
+}
+
+.KategorieBild img{
+	background: radial-gradient(#fff7f3,#fff);
+	width: 100%;
+	padding: 50px 0;
+	
+}
+
+.small-container .col-4{
+	text-align: center;
+ 	padding: 40px 20px;
+ 	box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+ 	cursor: pointer;
+ 	transition: transform 0.5;
+ 	margin-left: 1px;
+ 	margin-right: 1px;
+	
+}
+ .col-4 img{
+ 
+ 	width: 100%;
+ 	
+ }
+
+.small-container .col-4:hover{
+	
+	transform: translateY(-10px);
+}
+
+.text p{
+
+	
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	text-align: center;
+	color: grey;
+	
+}
+
+
+
+
+
+
+
+
+
+
+.infoFahrrad{
+	background: radial-gradient(#fff7f3,#fff);
+	
+}
+
+.infoFahrrad h4, h5{
+	
+	padding-top:50px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	text-align: center;
+	color: grey;
+	
+	
+}
+.infoFahrrad p{
+	
+	padding-top:25px;
+	padding-left:50px;
+	padding-right:50px;
+	padding-bottom:25px;
+	text-align: center;
+	color: grey;
+	
+}
+.infoFahrrad li{
+	
+	text-align: center;
+	color: grey;
+	
+	
+}
+
+.infoFahrrad a{
+	
+	text-decoration: underline;
+	color: grey;
+	
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ .footer{
+	background: #000;
+	color : #8a8a8a;
+	font-size: 14px;
+	padding: 60px 0 20px;
+}
+
+.footer p{
+
+	color : #8a8a8a;
+}
+
+.footer h3{
+	color: #fff;
+	margin-bottom: 5px;
+	
+}
+
+.footer-col-1{
+
+	text-align: center;
+}
+
+.footer-col-2{
+	flex: none;
+}
+.footer-col-2, .footer-col-3{
+	
+	text-align: center;
+}
+
+.footer-col-4 , .footer-col-5{
+	
+	text-align: center;
+}
+
+.footer-col-2 a, .footer-col-3 a{
+	color: grey;
+}
+ul{
+	list-style-type: none;
+}
+
+.footer-col-4 img{
+		
+	width: 60px;
+	
+}
+
+.footer-col-5 img{
+		
+	width: 60px;	
+	
+}
+
+.app-logo{
+	margin-top: 20px;
+}
+
+.app-logo img{
+	width: 140px;
+}
+
+.copyright{
+	text-align: center;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
